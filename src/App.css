@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black; /* Siyah arka plan */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Sayfanın tamamını kapla */
+  color: limegreen; /* Yeşil yazı */
+  font-size: 100px; /* Büyük yazı */
+  font-weight: bold;
+}
