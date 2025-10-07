@@ -22,7 +22,8 @@ body, html {
 }
 
 .subtitle {
-  font-size: 24px; /* Daha küçük */
-  margin-top: 10px; /* Biraz boşluk bırak */
-  opacity: 0.8; /* Biraz soluk, hoş durur */
+  font-size: 24px; 
+  margin-top: 10px; 
+  opacity: 0.8; 
+  color: crimson;
 }
