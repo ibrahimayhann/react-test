@@ -1,17 +1,28 @@
+
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: black; /* Siyah arka plan */
+  background-color: black;
   font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
+  flex-direction: column; /* Alt alta hizala */
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Sayfanın tamamını kapla */
-  color: limegreen; /* Yeşil yazı */
-  font-size: 100px; /* Büyük yazı */
+  height: 100vh;
+  color: limegreen;
+}
+
+.title {
+  font-size: 100px;
   font-weight: bold;
+}
+
+.subtitle {
+  font-size: 24px; /* Daha küçük */
+  margin-top: 10px; /* Biraz boşluk bırak */
+  opacity: 0.8; /* Biraz soluk, hoş durur */
 }

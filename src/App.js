@@ -4,8 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      MENFUR
+     <div className="title">Re'whise</div>
+      <div className="subtitle">Yakında</div>
     </div>
+    
   );
 }
 
